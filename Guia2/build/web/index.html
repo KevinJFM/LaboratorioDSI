@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Formulario de Reservación</h1>
+        <form action="ServletReservacion" method="post">
+            Nombres: <input type="text" name="tfNombres" size=30><br>
+            Apellidos: <input type="text" name="tfApellidos" size=30><br>
+            ID Habitación: <input type="text" name="tfIDHabitacion" size="3"><br>
+            <p>
+                Tipo de habitacion<br>
+                <input type="radio" name="rbTipoDeHabitacion" value="induvidual">Individual<br>
+                <input type="radio" name="rbTipoDeHabitacion" value="doble">Doble<br>
+                <input type="radio" name="rbTipoDeHabitacion" value="suite">Suite<br>
+            <p>
+                ID Empleado: <input type="text" name="tfIDEmpleado" size="3"><br>
+                Fecha de Entrada: <input type="date" name="tfFechaEntrada"><br>
+                Fecha de Salida: <input type="date" name="tfFechaSalida"><br>
+            <p>
+                <input type="submit" name="btRegistrar" value="REGISTRAR">
+                <input type="reset" name="btLimpiar" value="LIMPIAR">
+        </form>
+    </body>
+</html>
